@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Chitram Dasgupta</title>
 </head>
 
@@ -12,7 +13,7 @@
   <header>
     <h1>Chitram Dasgupta</h1>
     <p>
-      Hello! My name is Chitram Dasgupta. I am a final year B. Tech student
+      Hello! My name is <strong>Chitram Dasgupta</strong>. I am a final year B. Tech student
       studying CSE at CIEM, Tollygunge.
     </p>
     <p>I like to program and read books.</p>
@@ -21,22 +22,22 @@
   <hr>
 
   <main>
-    <figure>
-      <figcaption>My Picture</figcaption>
+    <figure class="block">
+      <h2>My Picture</h2>
       <img src="images/picture.jpg" alt="My Picture" title="My Picture" width="541" height="488">
     </figure>
 
     <br>
     <hr>
 
-    <section>
+    <section class="block">
       <h2>My Github profile</h2>
       <a href="https://github.com/chitramdasgupta" target="_blank">Github profile</a>
     </section>
 
     <hr>
 
-    <article>
+    <article class="block">
       <h2>List of programming languages I know:</h2>
       <ul>
         <li>C</li>
@@ -50,7 +51,7 @@
 
     <hr>
 
-    <article>
+    <article class="block table-container">
       <h2>My details</h2>
       <table>
         <thead>
@@ -76,20 +77,24 @@
 
     <hr>
 
-    <article>
+    <article class="block">
       <h2>I would like to hear from you</h2>
-      <form action="submission.html" method="post">
+      <form action="#" method="post">
         <fieldset>
           <legend>Submit your details</legend>
+          <br>
           <p>
-            <label for="name">Name</label>
+            <label for="name">&nbsp; Name</label>
             <input type="text" name="name" id="name">
           </p>
+          <br>
           <p>
-            <label for="address">Address</label>
+            <label for="address">&nbsp; Address</label>
             <input type="text" name="address" id="address">
           </p>
+          <br>
         </fieldset>
+        <br>
         <p>
           <button type="submit">Submit</button>
         </p>
